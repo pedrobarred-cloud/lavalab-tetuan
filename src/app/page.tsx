@@ -100,11 +100,11 @@ export default function Home() {
     <>
     <div className="min-h-screen flex flex-col bg-background">
       {/* Hero Section */}
-      <section className="relative w-full h-[25vh] md:h-[600px]">
+      <section id="hero-section" className="relative w-full" style={{ minHeight: '180px', height: '180px', maxHeight: '180px' }}>
         <img
           src="https://xmtqaakrlplknmhcmiha.supabase.co/storage/v1/object/public/lavalab/tienda%20lavalab.webp"
           alt="Lavalab Lavandería"
-          className="w-full h-[25vh] md:h-[600px] object-cover"
+          className="w-full h-full object-cover"
           style={{ objectPosition: 'top center' }}
         />
         {/* Gradient overlay for better text readability */}
