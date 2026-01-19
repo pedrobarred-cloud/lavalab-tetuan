@@ -99,14 +99,12 @@ export default function Home() {
   return (
     <>
       <style>{`
-        @media (max-width: 767px) {
-          #hero-section-mobile {
-            min-height: 180px !important;
-            height: 180px !important;
-            max-height: 180px !important;
-          }
+        #hero-section-mobile {
+          min-height: 25vh !important;
+          height: 25vh !important;
+          max-height: 25vh !important;
         }
-        @media (min-width: 768px) {
+        @media (min-width: 991px) {
           #hero-section-mobile {
             min-height: 600px !important;
             height: 600px !important;
@@ -116,7 +114,7 @@ export default function Home() {
       `}</style>
       <div className="min-h-screen flex flex-col bg-background">
       {/* Hero Section */}
-      <section id="hero-section-mobile" className="relative w-full" style={{ minHeight: '180px', height: '180px', maxHeight: '180px' }}>
+      <section id="hero-section-mobile" className="relative w-full" style={{ minHeight: '25vh', height: '25vh', maxHeight: '25vh' }}>
         <img
           src="https://xmtqaakrlplknmhcmiha.supabase.co/storage/v1/object/public/lavalab/tienda%20lavalab.webp"
           alt="Lavalab Lavandería"
