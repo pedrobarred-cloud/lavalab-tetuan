@@ -99,7 +99,7 @@ export default function Home() {
   return (
     <div className="min-h-screen flex flex-col bg-background">
       {/* Hero Section */}
-      <section className="relative w-full h-[600px] md:h-[600px]">
+      <section className="relative w-full h-[300px] md:h-[600px]">
         <img
           src="https://xmtqaakrlplknmhcmiha.supabase.co/storage/v1/object/public/lavalab/tienda%20lavalab.webp"
           alt="Lavalab Lavandería"
