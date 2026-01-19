@@ -100,7 +100,7 @@ export default function Home() {
     <>
     <div className="min-h-screen flex flex-col bg-background">
       {/* Hero Section */}
-      <section className="relative w-full max-h-[25vh] md:max-h-[600px]">
+      <section className="relative w-full h-[25vh] md:h-[600px]">
         <img
           src="https://xmtqaakrlplknmhcmiha.supabase.co/storage/v1/object/public/lavalab/tienda%20lavalab.webp"
           alt="Lavalab Lavandería"
@@ -130,36 +130,6 @@ export default function Home() {
               <Zap className="w-3 h-3 md:w-4.5 md:h-4.5 text-white" />
               <span className="font-semibold text-[9px] md:text-xs text-white">8 Máquinas</span>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Features Section */}
-      <section className="py-16 px-4">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">¿Por qué elegir Lavalab?</h2>
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-8">
-            <Card className="text-center p-4 md:p-6 hover:shadow-lg transition-shadow">
-              <div className="w-12 h-12 md:w-16 md:h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-3 md:mb-4">
-                <Clock className="w-6 h-6 md:w-8 md:h-8 text-primary" />
-              </div>
-              <h3 className="text-base md:text-xl font-bold mb-1 md:mb-2">Atención 24/7</h3>
-              <p className="text-xs md:text-sm text-muted-foreground">Siempre disponibles para ti</p>
-            </Card>
-            <Card className="text-center p-4 md:p-6 hover:shadow-lg transition-shadow">
-              <div className="w-12 h-12 md:w-16 md:h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-3 md:mb-4">
-                <Award className="w-6 h-6 md:w-8 md:h-8 text-primary" />
-              </div>
-              <h3 className="text-base md:text-xl font-bold mb-1 md:mb-2">Horario Flexible</h3>
-              <p className="text-xs md:text-sm text-muted-foreground">A tu conveniencia, 7:00 - 23:00</p>
-            </Card>
-            <Card className="text-center p-4 md:p-6 hover:shadow-lg transition-shadow">
-              <div className="w-12 h-12 md:w-16 md:h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-3 md:mb-4">
-                <MapPin className="w-6 h-6 md:w-8 md:h-8 text-primary" />
-              </div>
-              <h3 className="text-base md:text-xl font-bold mb-1 md:mb-2">Ubicación Central</h3>
-              <p className="text-xs md:text-sm text-muted-foreground">Fácil acceso en Madrid</p>
-            </Card>
           </div>
         </div>
       </section>
