@@ -103,7 +103,7 @@ export default function Home() {
         <img
           src="https://xmtqaakrlplknmhcmiha.supabase.co/storage/v1/object/public/lavalab/tienda%20lavalab.webp"
           alt="Lavalab Lavandería"
-          className="w-full h-full object-cover object-left"
+          className="w-full h-full object-cover object-top-left"
         />
         {/* Content container - address and icons with white background for readability */}
         <div className="absolute bottom-8 md:bottom-12 left-0 right-0 z-10 flex flex-col items-center gap-4 md:gap-6">
