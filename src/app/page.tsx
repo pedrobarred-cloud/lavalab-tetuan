@@ -97,6 +97,7 @@ export default function Home() {
   ]
 
   return (
+    <>
     <div className="min-h-screen flex flex-col bg-background">
       {/* Hero Section */}
       <section className="relative w-full max-h-[25vh] md:max-h-[600px]">
