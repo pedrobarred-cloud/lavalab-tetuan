@@ -99,11 +99,11 @@ export default function Home() {
   return (
     <div className="min-h-screen flex flex-col bg-background">
       {/* Hero Section */}
-      <section className="relative w-full h-[300px] md:h-[600px]">
+      <section className="relative w-full h-80 md:h-[600px]">
         <img
           src="https://xmtqaakrlplknmhcmiha.supabase.co/storage/v1/object/public/lavalab/tienda%20lavalab.webp"
           alt="Lavalab Lavandería"
-          className="w-full h-full object-cover object-top-left"
+          className="w-full h-full object-cover object-top"
         />
         {/* Content container - address and icons with white background for readability */}
         <div className="absolute bottom-8 md:bottom-12 left-0 right-0 z-10 flex flex-col items-center gap-4 md:gap-6">
