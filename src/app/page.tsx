@@ -98,7 +98,21 @@ export default function Home() {
 
   return (
     <>
-    <div className="min-h-screen flex flex-col bg-background">
+      <style>{`
+        #hero-section {
+          min-height: 180px !important;
+          height: 180px !important;
+          max-height: 180px !important;
+        }
+        @media (min-width: 768px) {
+          #hero-section {
+            min-height: 600px !important;
+            height: 600px !important;
+            max-height: 600px !important;
+          }
+        }
+      `}</style>
+      <div className="min-h-screen flex flex-col bg-background">
       {/* Hero Section */}
       <section id="hero-section" className="relative w-full" style={{ minHeight: '180px', height: '180px', maxHeight: '180px' }}>
         <img
